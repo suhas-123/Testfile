@@ -1,0 +1,26 @@
+{
+  "name": "nearby_prac_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "aws-log": "^0.9.1",
+    "compression": "^1.7.4",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "express-enforces-ssl": "^1.1.0",
+    "express-session": "^1.17.0",
+    "fs-extra": "^8.1.0",
+    "helmet": "^3.21.2",
+    "multiparty": "^4.2.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
